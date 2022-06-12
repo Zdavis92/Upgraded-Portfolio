@@ -5,7 +5,7 @@ const AboutMe = () => {
         <main>
             <h1>Welcome!</h1>
             <h3>A little about me</h3>
-            <p>Hi! My name is Zachary Davis. I am a recent graduate from UT Austin's Full Stack Web Development program, and I'm 
+            <p>Hi! My name is Zachary Davis. I am a recent graduate from The University of Texas at Austin's Full Stack Web Development program, and I'm 
                 extremely excited to begin a new career as a web developer. Though it was challenging at times, I really developed a passion for coding
                 and problem solving. After months of practice I feel ready to take the next step and get my foot in the door of this
                 industry. I want to learn much more and gain the experience to become one of the best!
@@ -14,10 +14,10 @@ const AboutMe = () => {
                 of web development and have worked on several solo and collaborative projects. Using technologies from HTML, CSS, and Javascript
                 to the MERN (Mongo, Express, React, and Node) stack taught in the course I took. I also have experience with RESTful apis, GraphQL, MySQL,
                 and ORMs like Sequelize and Mongoose. I have contributed to projects using all of these technologies and by doing so found that I
-                have a strength working on the backend. I enjoy solving the challenges that come with working with data and feel a great sense
+                have a strength in backend coding. I enjoy solving the challenges that come with working with data and feel a great sense
                 of accomplishment as I become progressively better in doing so.
             </p>
-            <p>Like with many things. The more knowledgeable you become in a subject, the more you realize is there more out there to learn about it. I find that web development 
+            <p>As you gain knowledge in a subject, you realize how much more there is to learn about it. I find that web development 
                 is not an exception to this. Though I have managed to reach a level proficiency that I believe allows for me to be an asset, I look for every
                 opportunity to expand on what I know. My hope is that I may find a place of employment where I can continue to do so while contributing
                 to the greatest extent that I am capable. I would like to share what I have learned with others, just as others have done for me!
