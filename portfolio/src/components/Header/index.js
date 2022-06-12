@@ -4,17 +4,16 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <header className="bg-sky-900 flex flex-row flex-wrap justify-between content-center" >
-            <div>
-                <h1 className="text-white mx-auto mt-4 text-5xl sm:p-2 sm:m-5 sm:ml-8">Zachary Davis</h1>
-                <p>Full stack Web Developer</p>
+            <div className='flex flex-col justify-center mx-auto md:ml-8 md:my-auto'>
+                <h1 className="text-white mx-auto mt-4 text-5xl">Zachary Davis</h1>
+                <p className="text-white mx-auto my-2 text-xl">Full stack Web Developer</p>
             </div>
-            <nav className="m-5 mr-7">
+            <nav className="mx-auto md:mx-4 md:my-auto">
                 <ul className="flex flex-wrap justify-evenly">
-                    <Link to='/' className="text-xl p-2 m-2">About Me</Link>
-                    <Link to='/portfolio' className="text-xl p-2 m-2">Portfolio</Link>
-                    <Link to='/contact' className="text-xl p-2 m-2">Contact Me</Link>
-                    <Link to='/resume' className="text-xl p-2 m-2">Resume</Link>
-
+                    <Link to='/' className="text-2xl m-2 md:text-xl hover:underline hover:font-bold hover:text-blue-600">About Me</Link>
+                    <Link to='/portfolio' className="text-2xl m-2 md:text-xl hover:underline hover:font-bold hover:text-blue-600">Portfolio</Link>
+                    <Link to='/contact' className="text-2xl m-2 md:text-xl hover:underline hover:font-bold hover:text-blue-600">Contact Me</Link>
+                    <Link to='/resume' className="text-2xl m-2 md:text-xl hover:underline hover:font-bold hover:text-blue-600">Resume</Link>
                 </ul>
             </nav>
         </header>
