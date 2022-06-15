@@ -12,8 +12,8 @@ const Resume = () => {
                         current knowledge and skills. Experience working with teams remotely. Assisted in development and
                         testing of multiple web-based applications</p>
                 </div>
-                <div className="lg:flex lg:flex-row lg:justify-evenly lg:bg-cyan-50">
-                    <div className="bg-cyan-50 lg:flex-1">
+                <div className="lg:flex lg:flex-row lg:justify-evenly lg:bg-cyan-50 lg:border-2 lg:rounded-md lg:shadow">
+                    <div className="bg-cyan-50 border-2 rounded-md shadow lg:flex-1 lg:border-0 lg:shadow-none">
                         <h2 className="mt-2 underline text-2xl md:mt-4">Skills</h2>
                         <ul className="mb-2 font-bold md:mb-4">
                             <li>HTML, CSS, JavaScript</li>
@@ -34,7 +34,7 @@ const Resume = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="bg-cyan-50 lg:bg-white">
+                <div className="bg-cyan-50 border-2 rounded-md shadow lg:bg-white lg:border-0 lg:shadow-none">
                     <h2 className="mt-2 underline text-2xl md:mt-4">Work Experience</h2>
                     <p className="italic">Apl 2021 - Present</p>
                     <h3 className="font-bold w-10/12 mx-auto">Buttermilk Cafe, New Braunfels, TX - Section Leader</h3>
