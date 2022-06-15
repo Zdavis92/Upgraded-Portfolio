@@ -5,10 +5,9 @@ const AboutMe = () => {
     return (
         <main>
             <div className="flex flex-col items-center mx-auto text-center">
-                <h1 className="text-6xl m-2">Welcome!</h1>
-                <div className="flex flex-row flex-wrap w-11/12">
-                    <img className="w-screen max-w-xs mx-auto sm:flex-1 sm:m-4 rounded-2xl shadow" src={waves} alt="Zachary Davis"></img>
-                    <div className="sm:flex-1 sm:my-auto sm:m-4 flex flex-col">
+                <div className="flex flex-row flex-wrap w-11/12 xl:w-9/12">
+                    <img className="w-screen max-w-xs mx-auto mb-6 md:flex-1 md:m-4 md:mb-8 rounded-2xl shadow-xl" src={waves} alt="Zachary Davis"></img>
+                    <div className="md:flex-1 md:my-auto md:m-4 flex flex-col">
                         <h3 className="text-2xl m-1">A little about myself</h3>
                         <p className="m-2"> Hi! My name is Zachary Davis. I am a recent graduate from The University of Texas at Austin's Full Stack Web Development program, and I'm
                             extremely excited to begin a new career as a web developer. Though it was challenging at times, I really developed a passion for coding
@@ -17,7 +16,7 @@ const AboutMe = () => {
                         </p>
                     </div>
                 </div>
-                <div className="bg-sky-50">
+                <div className="bg-cyan-50 border-2 rounded-md shadow">
                     <p className="m-4 w-11/12 sm:w-9/12 sm:mx-auto sm:my-24"> Over the past year I have taught myself a great deal, either on my own or through school. I am now familiar with the basic components
                         of web development and have worked on several solo and collaborative projects. Using technologies from HTML, CSS, and Javascript
                         to the MERN (Mongo, Express, React, and Node) stack taught in the course I took. I also have experience with RESTful apis, GraphQL, MySQL,

@@ -3,7 +3,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        cool: '#86B3D1',
+        DarkCornflowerBlue: '#003B7A',
+        DarkSkyBlue: '#98C1D9',
+        LightCyan: '#E0FBFC',
+        RoseyBrown: '#e75a7c',
+        Feldgrau: '#3b625f',
       }
     },
   },
