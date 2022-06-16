@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/upgraded-portfolio/static/css/main.c9cad301.css",
-    "main.js": "/upgraded-portfolio/static/js/main.63d1c0c2.js",
-    "static/media/20220108_174710.jpg": "/upgraded-portfolio/static/media/20220108_174710.2eaead537f8ec925857c.jpg",
-    "static/media/We-help-austin-homepage.png": "/upgraded-portfolio/static/media/We-help-austin-homepage.1b01e79c013a546ed385.png",
-    "static/media/Connected-screenshot.png": "/upgraded-portfolio/static/media/Connected-screenshot.95c03c570971962ac50f.png",
-    "index.html": "/upgraded-portfolio/index.html",
-    "main.c9cad301.css.map": "/upgraded-portfolio/static/css/main.c9cad301.css.map",
-    "main.63d1c0c2.js.map": "/upgraded-portfolio/static/js/main.63d1c0c2.js.map"
+    "main.css": "/Upgraded-Portfolio/static/css/main.c9cad301.css",
+    "main.js": "/Upgraded-Portfolio/static/js/main.26494a58.js",
+    "static/media/20220108_174710.jpg": "/Upgraded-Portfolio/static/media/20220108_174710.2eaead537f8ec925857c.jpg",
+    "static/media/We-help-austin-homepage.png": "/Upgraded-Portfolio/static/media/We-help-austin-homepage.1b01e79c013a546ed385.png",
+    "static/media/Connected-screenshot.png": "/Upgraded-Portfolio/static/media/Connected-screenshot.95c03c570971962ac50f.png",
+    "index.html": "/Upgraded-Portfolio/index.html",
+    "main.c9cad301.css.map": "/Upgraded-Portfolio/static/css/main.c9cad301.css.map",
+    "main.26494a58.js.map": "/Upgraded-Portfolio/static/js/main.26494a58.js.map"
   },
   "entrypoints": [
     "static/css/main.c9cad301.css",
-    "static/js/main.63d1c0c2.js"
+    "static/js/main.26494a58.js"
   ]
 }
