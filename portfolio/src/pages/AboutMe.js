@@ -6,9 +6,9 @@ const AboutMe = () => {
         <main>
             <div className="flex flex-col items-center mx-auto text-center">
                 <div className="flex flex-row flex-wrap w-11/12 xl:w-9/12">
-                    <img className="w-screen max-w-xs mx-auto mb-6 md:flex-1 md:m-4 md:mb-8 rounded-2xl shadow-xl" src={waves} alt="Zachary Davis"></img>
+                    <img className="w-screen max-w-xs mx-auto mb-6 md:flex-1 md:m-4 md:mb-8 rounded-2xl shadow-lg" src={waves} alt="Zachary Davis"></img>
                     <div className="md:flex-1 md:my-auto md:m-4 flex flex-col">
-                        <h3 className="text-2xl m-1">A little about myself</h3>
+                        <h3 className="text-3xl m-1 font-bold text-sky-800 border-b-2 pb-2">A little about myself</h3>
                         <p className="m-2"> Hi! My name is Zachary Davis. I am a recent graduate from The University of Texas at Austin's Full Stack Web Development program, and I'm
                             extremely excited to begin a new career as a web developer. Though it was challenging at times, I really developed a passion for coding
                             and problem solving. After months of practice I feel ready to take the next step and get my foot in the door of this
@@ -16,7 +16,7 @@ const AboutMe = () => {
                         </p>
                     </div>
                 </div>
-                <div className="bg-cyan-50 border-2 rounded-md shadow">
+                <div className="bg-cyan-50 border-2 rounded-md shadow-lg m-4">
                     <p className="m-4 w-11/12 sm:w-9/12 sm:mx-auto sm:my-24"> Over the past year I have taught myself a great deal, either on my own or through school. I am now familiar with the basic components
                         of web development and have worked on several solo and collaborative projects. Using technologies from HTML, CSS, and Javascript
                         to the MERN (Mongo, Express, React, and Node) stack taught in the course I took. I also have experience with RESTful apis, GraphQL, MySQL,
