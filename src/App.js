@@ -14,10 +14,10 @@ function App() {
       <Header />
       <div className="min-h-screen min-w-screen text-lg">
         <Routes>
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/Upgraded-Portfolio/" element={<AboutMe />} />
+          <Route path="/Upgraded-Portfolio/contact" element={<Contact />} />
+          <Route path="/Upgraded-Portfolio/portfolio" element={<Portfolio />} />
+          <Route path="/Upgraded-Portfolio/resume" element={<Resume />} />
           <Route path="*" element={<AboutMe />} />
         </Routes>
       </div>
