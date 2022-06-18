@@ -60,7 +60,7 @@ const Resume = () => {
                         <li>Addressed security concerns including facility accessibility, disgruntled customers, and former employees</li>
                     </ul>
                 </div>
-                <Link className="bg-RoseyBrown w-40 rounded-md shadow-lg text-white p-1 mx-auto lg:my-4" to="/Zachary Davis's Resume.pdf" target='_blank' download>Download Resume</Link>
+                <Link className="bg-RoseyBrown w-40 rounded-md shadow-lg text-white p-1 mx-auto lg:my-4" to="https://github.com/Zdavis92/Upgraded-Portfolio/blob/gh-pages/Zachary%20Davis's%20Resume.pdf" target='_blank' download>Download Resume</Link>
             </div>
         </main>
     )
