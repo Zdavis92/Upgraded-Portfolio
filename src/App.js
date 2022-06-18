@@ -9,7 +9,6 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 
 function App() {
-  window.location.replace("https://zdavis92.github.io/Upgraded-Portfolio/");
   return (
     <Router>
       <Header />
