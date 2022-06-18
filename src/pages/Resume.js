@@ -38,7 +38,7 @@ const Resume = () => {
                     <h2 className="font-bold text-2xl md:mt-4 text-sky-800">Work Experience</h2>
                     <p className="italic">Apl 2021 - Present</p>
                     <h3 className="font-bold w-10/12 mx-auto text-sky-800">Buttermilk Cafe, New Braunfels, TX - Section Leader</h3>
-                    <ul className="mb-2 list-disc w-3/4 mx-auto md:mb-4 lg:w-3/6">
+                    <ul className="mb-2 list-disc w-3/4 mx-auto md:mb-4 lg:w-3/6 2xl:w-2/5">
                         <li>Delivered in-depth training to workers in food preparation to promote strong team performance</li>
                         <li>Obtained and enhanced quality benchmarks by developing and implementing standard practices</li>
                         <li>Coordinated safety improvement activities and training to promote safety awareness</li>
@@ -48,7 +48,7 @@ const Resume = () => {
                 <div className="m-2 md:m-4">
                     <p className="italic">Oct 2011 - Apl 2021</p>
                     <h3 className="font-bold w-10/12 mx-auto text-sky-800">River City Smoked Meats, New Braunfels, TX - Kitchen Manager</h3>
-                    <ul className="list-disc w-3/4 mx-auto">
+                    <ul className="list-disc w-3/4 mx-auto 2xl:w-3/6">
                         <li>Created and deployed successful strategies to boost restaurant performance, streamline food prep processes and reduce waste</li>
                         <li>Delivered in-depth training to workers in food preparation and customer-facing roles to promote strong team performance</li>
                         <li>Coordinated with the events organizer to ensure quality and timely food deliveries</li>
