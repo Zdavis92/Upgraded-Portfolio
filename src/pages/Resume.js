@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Resume = () => {
     return (
@@ -60,7 +60,7 @@ const Resume = () => {
                         <li>Addressed security concerns including facility accessibility, disgruntled customers, and former employees</li>
                     </ul>
                 </div>
-                <Link className="bg-RoseyBrown w-40 rounded-md shadow-lg text-white p-1 mx-auto lg:my-4" to="https://github.com/Zdavis92/Upgraded-Portfolio/raw/gh-pages/Zachary%20Davis's%20Resume.pdf" target='_blank' download>Download Resume</Link>
+                <a className="bg-RoseyBrown w-40 rounded-md shadow-lg text-white p-1 mx-auto lg:my-4" href="https://github.com/Zdavis92/Upgraded-Portfolio/raw/gh-pages/Zachary%20Davis's%20Resume.pdf" download>Download Resume</a>
             </div>
         </main>
     )
