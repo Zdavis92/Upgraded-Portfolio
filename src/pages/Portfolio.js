@@ -1,12 +1,29 @@
 import React from "react";
 import connectedImg from '../Images/Connected-screenshot.png';
 import weHelpImg from '../Images/We-help-austin-homepage.png';
+import shotGenImg from '../Images/Shot Generator screenshot.PNG';
 
 const Portfolio = () => {
     return (
         <main className="flex flex-col items-center text-center w-11/12 mx-auto">
             <h1 className="text-3xl m-4 font-bold text-sky-800">Some Of My Work</h1>
             <div className="flex flex-col">
+                <div className="lg:flex lg:flex-row lg:m-4 lg:mb-10">
+                    <div className="bg-cyan-50 rounded border-2 shadow-md m-2 lg:order-2">
+                        <h2 className="m-2 text-2xl font-medium text-sky-800">Disc Golf Shot Generator</h2>
+                        <a href="https://zdavis92.github.io/DiscGolfShotGenerator/" target='_blank' rel="noreferrer"><img className="rounded shadow-md h-96 mx-auto" src={shotGenImg} alt=""></img></a>
+                        <p className="m-2">A mobile first PWA with offline functionality to spice up your disc golf rounds by generating random shots the throw. Select a difficulty based
+                        on your level of play.</p>
+                    </div>
+                    <div className="sm:m-4 lg:order-1 lg:my-auto">
+                        <h3 className="text-xl font-medium text-sky-800 border-b-2 w-9/12 mx-auto">App info</h3>
+                        <ul className="list-disc w-9/12 mx-auto">
+                            <li>A simple Progressive Web App that selects and random disc type and shot for 144 deferent combinations weighted based on difficulty.</li>
+                            <li>Built with React.js and Tailwind CSS</li>
+                            <li>Mobile first design that can be installed on your device for offline functionality</li>
+                        </ul>
+                    </div>
+                </div>
                 <div className="lg:flex lg:flex-row lg:m-4">
                     <div className="bg-cyan-50 rounded border-2 shadow-md m-2">
                         <h2 className="m-2 text-2xl font-medium text-sky-800">Connected</h2>
