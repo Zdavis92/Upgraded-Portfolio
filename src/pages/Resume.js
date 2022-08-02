@@ -37,12 +37,13 @@ const Resume = () => {
                 <div className="bg-cyan-50 border-2 rounded-md shadow-lg m-4 lg:bg-white lg:border-0 lg:rounded-none lg:shadow-none">
                     <h2 className="font-bold text-2xl md:mt-4 text-sky-800">Work Experience</h2>
                     <p className="italic">Apl 2021 - Present</p>
-                    <h3 className="font-bold w-10/12 mx-auto text-sky-800">Buttermilk Cafe, New Braunfels, TX - Section Leader</h3>
+                    <h3 className="font-bold w-10/12 mx-auto text-sky-800">Buttermilk Cafe, New Braunfels, TX - Sous Chef</h3>
                     <ul className="mb-2 list-disc w-3/4 mx-auto md:mb-4 lg:w-3/6 2xl:w-2/5">
                         <li>Delivered in-depth training to workers in food preparation to promote strong team performance</li>
                         <li>Obtained and enhanced quality benchmarks by developing and implementing standard practices</li>
-                        <li>Coordinated safety improvement activities and training to promote safety awareness</li>
-                        <li>Liaised with the owner to discuss adverse trends and identify and resolve production issues</li>
+                        <li>Inventoried products and scheduled production to ensure accurate order for food and beverage deliveries</li>
+                        <li>Coordinated with the owner to discuss adverse trends and identify and resolve production issues</li>
+                        <li>Created daily specials to ensure variety to customers in our menu</li>
                     </ul>
                 </div>
                 <div className="m-2 md:m-4">
